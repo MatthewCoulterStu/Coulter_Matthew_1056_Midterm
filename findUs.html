@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Find Us</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lacquer%7cVarela+Round&display=swap" rel="stylesheet">
 	<!-- Use if IE 9
 	<script src="js/html5shiv.js"></script>
 	-->
 </head>
-<body>
+<body  id="indexBody" style="background-color:#FFF7FE;">
+	<h1 class="hidden">Find Us</h1>
 	<nav class="header">
-		<img id="logo" src="images/logo.png">
+		<h2 class="hidden">Header Navigation</h2>
+		<img id="logo" src="images/logo.png" alt="logo">
 		<div id="pageLinks">
 		<a href="ourStory.html">Our Story</a>
 		<a href="ourProduct.html">Our Product</a>
@@ -19,25 +22,39 @@
 		<a href="events.html">Events</a>
 	    </div>
 	</nav>
-	<div id="main">
-	<div id="imageBox">
-		<img id="mainImage" src="images/indexImage.jpg">
+	<h2 id="findUs">Find Us</h2>
+	<div id="findUsBox">
+	<div id="contactInfo">
+		<h3>Contact information</h3>
+		<p>McAuslanYak@gmail.com</p>
+		<p>(123) 456 7890</p>
+		<p>123 street London ON</p>
 	</div>
+	<div id="contactForm">
+		<h3>Contact US</h3>
+		<p>Feel Free to contact us with any questions or concerns. We will try to respond to you as soon as possible!</p>
+		<form id="formInput">
+			<label>Name</label>
+			<input type="text" name="Name" placeholder="Your Name Here">
 
-	<div class="indexBody">
-		<h2>Mission Statement</h2>
-		<p>Description</p>
+			<label>Email</label>
+			<input type="text" name="Name" placeholder="Your Email Here">
+
+			<label>Message</label>
+			<textarea name=message style="height:200px"></textarea>
+
+		</form>
 	</div>
 	</div>
 
 	<nav class="footer">
+		<h2 class="hidden">Footer navigation</h2>
 		<div id="socialLinks">
-		<a href="twitter.com"> <img src="images/twitterLogo.png"></a>
-		<a href="facebook.com"> <img src="images/facebookLogo.png"></a>
-		<a href="instagram.com"> <img src="images/instagramLogo.png"></a>
+		<a href="https://www.twitter.com"> <img src="images/twitterLogo.png" alt="twitter logo"></a>
+		<a href="https://www.facebook.com"> <img src="images/facebookLogo.png" alt="facebook logo"></a>
+		<a href="https://www.instagram.com"> <img src="images/instagramLogo.png" alt="instagram logo"></a>
 		</div>
 	</nav>
 	
-<script src="js/main.js"></script>
 </body>
 </html>

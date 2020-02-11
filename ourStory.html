@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Our Story</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lacquer%7cVarela+Round&display=swap" rel="stylesheet">
 	<!-- Use if IE 9
 	<script src="js/html5shiv.js"></script>
 	-->
 </head>
-<body>
+<body  id="indexBody" style="background-color:#FFF7FE;">
+	<h1 class="hidden">Our Story</h1>
 	<nav class="header">
-		<img id="logo" src="images/logo.png">
+		<h2 class="hidden">Header Navigation</h2>
+		<img id="logo" src="images/logo.png" alt="logo">
 		<div id="pageLinks">
 		<a href="ourStory.html">Our Story</a>
 		<a href="ourProduct.html">Our Product</a>
@@ -19,25 +22,26 @@
 		<a href="events.html">Events</a>
 	    </div>
 	</nav>
-	<div id="main">
-	<div id="imageBox">
-		<img id="mainImage" src="images/indexImage.jpg">
+
+	<div id="ourStoryBanner">
+		<img id="storyBannerImg" src="images/ourStorybanner.jpg" alt="Banner Image">
 	</div>
 
-	<div class="indexBody">
-		<h2>Mission Statement</h2>
-		<p>Description</p>
+	<div id="ourStoryBody">
+		<h2>Our Story</h2>
+		<p>Founded in 2020 through the merger of 'Lucy and Yak' and McAuslen, McAuslen and Yak was created out of a common love for expression and great craftsmenship. We belive you can taste that in all of the great products we offer. Dont Belive us yet? Just pick up an ice cold beer and find out for yourself! </p>
+		<button id="productButton"  onclick="window.location.href = 'ourProduct.html';">Give Us A Try!</button>
 	</div>
-	</div>
+
 
 	<nav class="footer">
+		<h2 class="hidden">Footer navigation</h2>
 		<div id="socialLinks">
-		<a href="twitter.com"> <img src="images/twitterLogo.png"></a>
-		<a href="facebook.com"> <img src="images/facebookLogo.png"></a>
-		<a href="instagram.com"> <img src="images/instagramLogo.png"></a>
+		<a href="https://www.twitter.com"> <img src="images/twitterLogo.png" alt="twitter logo"></a>
+		<a href="https://www.facebook.com"> <img src="images/facebookLogo.png" alt="facebook logo"></a>
+		<a href="https://www.instagram.com"> <img src="images/instagramLogo.png" alt="instagram logo"></a>
 		</div>
 	</nav>
 	
-<script src="js/main.js"></script>
 </body>
 </html>
